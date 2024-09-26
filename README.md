@@ -53,7 +53,7 @@ Provides navigation back to the home page for continued shopping.
 ![checkout](https://github.com/user-attachments/assets/51966f75-5b5b-4e2b-9260-c152e20cccf3)
 
 
- 
+ this web app followed this tutorial: https://www.youtube.com/watch?v=Kbauf9IgsC4
 
 ## Development server
 
