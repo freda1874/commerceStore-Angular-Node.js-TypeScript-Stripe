@@ -1,5 +1,5 @@
 
-### EcommerceStore – Angular, Node.js, TypeScript, Stripe**
+### EcommerceStore – Angular, Node.js, TypeScript, Stripe
 
 This is a modern, full-stack eCommerce web application built with **Angular 18.20** ( with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.3), **Node.js**, **TypeScript**, and **Stripe** (for payment processing) features a fully functional shopping cart, product browsing, and checkout experience.
 
