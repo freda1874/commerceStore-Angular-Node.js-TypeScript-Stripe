@@ -3,15 +3,26 @@
 
 This is a modern, full-stack eCommerce web application built with **Angular 18.20** ( with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.3), **Node.js**, **TypeScript**, and **Stripe** (for payment processing) features a fully functional shopping cart, product browsing, and checkout experience.
 
-This web app allows users to browse products across various categories, explore detailed item descriptions, and easily add items to their shopping cart. 
-Users can manage their cart by adding, reducing, or deleting items, with the option to continue shopping or proceed to checkout. 
-The checkout process is seamlessly integrated with the Stripe API, ensuring a secure and smooth payment experience. Store owners can also configure shipping and delivery services during checkout.
+- This web app allows users to browse products across various categories, explore detailed item descriptions, and easily add items to their shopping cart. 
+- Users can manage their cart by adding, reducing, or deleting items, with the option to continue shopping or proceed to checkout. 
+- The checkout process is seamlessly integrated with the Stripe API, ensuring a secure and smooth payment experience. Store owners can also configure shipping and delivery services during checkout.
 
 The UI is structured using **Angular Material** and **Tailwind CSS**to design a responsive, clean UI. 
 This project integrates the **Fake Store API** (https://fakestoreapi.com/) as the data source for products, including categories, descriptions, prices, and images.
 
- ![sequence](https://github.com/user-attachments/assets/60a28b1f-02da-4b0f-b098-bb65b26e62d0)
 
+
+### Process Overview:
+ ![sequence](https://github.com/user-attachments/assets/60a28b1f-02da-4b0f-b098-bb65b26e62d0)
+- **Home Page**: 
+  - Users browse and filter products.
+  - Add items to the cart and adjust the number of products displayed per page.
+- **Cart Page**: 
+  - View added items, update quantities, and remove items.
+  - The total price is updated automatically based on the items in the cart.
+- **Checkout**: 
+  - When ready, users can proceed to the Stripe-powered checkout, where they enter payment details, and the cart total is processed securely.
+  - 
  **Home Page**: 
 
 Displays products with pagination options for 12, 24, or 36 items per page.
@@ -41,15 +52,7 @@ Provides navigation back to the home page for continued shopping.
    - After payment, Stripe returns a session ID to the backend, which is then handled by the server.
 ![checkout](https://github.com/user-attachments/assets/51966f75-5b5b-4e2b-9260-c152e20cccf3)
 
-### Process Overview:
-- **Home Page**: 
-  - Users browse and filter products.
-  - Add items to the cart and adjust the number of products displayed per page.
-- **Cart Page**: 
-  - View added items, update quantities, and remove items.
-  - The total price is updated automatically based on the items in the cart.
-- **Checkout**: 
-  - When ready, users can proceed to the Stripe-powered checkout, where they enter payment details, and the cart total is processed securely.
+
  
 
 ## Development server
