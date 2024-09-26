@@ -1,7 +1,10 @@
 
 ### EcommerceStore – Angular, Node.js, TypeScript, Stripe**
-A modern, full-stack eCommerce web application built with **Angular 18.20** ( with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.3), **Node.js**, **TypeScript**, and **Stripe** (for payment processing) features a fully functional shopping cart, product browsing, and checkout experience.
-This web app allows users to browse products across various categories, explore detailed item descriptions, and easily add items to their shopping cart. Users can manage their cart by adding, reducing, or deleting items, with the option to continue shopping or proceed to checkout. The checkout process is seamlessly integrated with the Stripe API, ensuring a secure and smooth payment experience. Store owners can also configure shipping and delivery services during checkout.
+
+This is a modern, full-stack eCommerce web application built with **Angular 18.20** ( with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.3), **Node.js**, **TypeScript**, and **Stripe** (for payment processing) features a fully functional shopping cart, product browsing, and checkout experience.
+This web app allows users to browse products across various categories, explore detailed item descriptions, and easily add items to their shopping cart. 
+Users can manage their cart by adding, reducing, or deleting items, with the option to continue shopping or proceed to checkout. 
+The checkout process is seamlessly integrated with the Stripe API, ensuring a secure and smooth payment experience. Store owners can also configure shipping and delivery services during checkout.
 
 The UI is structured using **Angular Material** and **Tailwind CSS**to design a responsive, clean UI. 
 This project integrates the **Fake Store API** (https://fakestoreapi.com/) as the data source for products, including categories, descriptions, prices, and images.
